@@ -4,19 +4,27 @@ body {
 	font-weight: 100;
 }
 
+section {
+	text-align: center;
+}
+
 input {
-	width: 100%;
-}
-/*.btn {
- width: 100%;
+	height: 40px !important;
+	width: 350px !important;
+	background-color: 	 #ffe6e6;
+	border-style: groove;
+
 }
 
-.info {
-	background-color: lightyellow;
+div {
+	height: 3rem;
+	width: 3rem;
+	display: inline-block;
+	font-size: 10px !important;
+	border-style: double;
+	background-color: green;
 }
 
-.content {
-	background-color: lightgreen;
-	height: 100px;
-	width: 100%;
-}*/
+h1 {
+	font-size: 50px;
+}

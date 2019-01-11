@@ -1,22 +1,12 @@
-let x = document.querySelectorAll("h2");
-document.addEventListener("click",function(e){
-	console.log(e.target);
-	console.log(typeof e);
+let div = document.querySelectorAll('div');
+let input = document.querySelector('input');
 
-})
+for(i=0; i<div.length; i++) {
+	div[i].addEventListener('click', clicker);
+	function clicker(e) {
+	let type = e.target.innerHTML;
+	input.value += type;
+	console.log(e.path[0]);
+}}
 
-
-
-
-// function getContent(e){
-// 	let content = e.target.innerHTML;
-// 	alert(content);
-// }
-
-
-
-// document.querySelectorAll("h2")
-// .addEventListener("click", function(e){
-// 	console.log(e.target);
-// })
 
