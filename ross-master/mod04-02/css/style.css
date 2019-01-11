@@ -1,0 +1,12 @@
+h1 {
+	margin: 2rem 0;
+	font-weight: 700;
+}
+
+td {
+	height: 15rem;
+	width: 30%;
+	border: 5px solid coral !important;
+	vertical-align: middle !important;
+	text-align: center;
+}
